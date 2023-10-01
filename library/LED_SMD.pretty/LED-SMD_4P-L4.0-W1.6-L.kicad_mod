@@ -1,0 +1,122 @@
+(footprint "LED-SMD_4P-L4.0-W1.6-L" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -1.5) (layer "F.SilkS")
+      (effects (font (size 1.143 1.143) (thickness 0.152)) (justify left))
+    (tstamp ec41e5f6-86bc-4521-a356-6459578706c4)
+  )
+  (fp_text value "LED-SMD_4P-L4.0-W1.6-L" (at 0 -3) (layer "F.Fab") hide
+      (effects (font (size 1.143 1.143) (thickness 0.152)) (justify left))
+    (tstamp ee46b7cc-10f6-4e5b-adc1-0895b13e3559)
+  )
+  (fp_line (start -2 1.362) (end -2 0.71)
+    (stroke (width 0.152) (type solid)) (layer "F.SilkS") (tstamp 0225ef19-44e1-4353-801d-ab41892b8b66))
+  (fp_line (start -1.172 1.362) (end -1.125 1.362)
+    (stroke (width 0.152) (type solid)) (layer "F.SilkS") (tstamp b51f72c4-4be3-4207-9a79-b8727d4a04f5))
+  (fp_line (start -1.125 1.362) (end -0.875 1.112)
+    (stroke (width 0.152) (type solid)) (layer "F.SilkS") (tstamp 84b7b8f7-c611-4760-bfb5-998f37ab2885))
+  (fp_line (start -0.875 1.112) (end 0.888 1.112)
+    (stroke (width 0.152) (type solid)) (layer "F.SilkS") (tstamp e443590d-8af5-490f-bc25-ac6cb28337d1))
+  (fp_line (start 0.888 1.112) (end 1.138 1.362)
+    (stroke (width 0.152) (type solid)) (layer "F.SilkS") (tstamp 2ef42f9b-6500-482f-b20e-507a0ee25a71))
+  (fp_line (start 2 0.685) (end 2 1.362)
+    (stroke (width 0.152) (type solid)) (layer "F.SilkS") (tstamp a8ff562f-d1a6-409e-9230-917c1f0b65e1))
+  (fp_line (start 2 1.362) (end -2 1.362)
+    (stroke (width 0.152) (type solid)) (layer "F.SilkS") (tstamp aefa7c6d-42a3-442e-ada2-c716905edd2e))
+  (fp_circle (center -2.125 0.488) (end -2.05 0.488)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "F.SilkS") (tstamp 5a775856-4d79-4e1d-a0b3-f4593e6ce66d))
+  (fp_circle (center -2.075 -0.138) (end -1.975 -0.138)
+    (stroke (width 0.2) (type solid)) (fill none) (layer "Cmts.User") (tstamp 48647b41-7a5c-4f6e-b573-dc055a55ce96))
+  (fp_poly
+    (pts
+      (xy 2 1.362)
+      (xy 2 0.938)
+      (xy 1.575 1.363)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "Cmts.User") (tstamp f2d30777-0f9a-4811-9770-b5f3c38af095))
+  (fp_poly
+    (pts
+      (xy -0.725 0.35)
+      (xy -0.725 0.25)
+      (xy -0.15 0.25)
+      (xy -0.15 0.35)
+      (xy -0.725 0.35)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "Cmts.User") (tstamp 9172eb43-fe5a-4c4a-95da-1002850196ab))
+  (fp_poly
+    (pts
+      (xy -0.388 0.587)
+      (xy -0.488 0.587)
+      (xy -0.488 0.012)
+      (xy -0.388 0.012)
+      (xy -0.388 0.587)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "Cmts.User") (tstamp e788b9a6-9082-4670-9137-94ae8312e5ba))
+  (fp_poly
+    (pts
+      (xy 1.275 0.325)
+      (xy 1.275 0.225)
+      (xy 1.85 0.225)
+      (xy 1.85 0.325)
+      (xy 1.275 0.325)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "Cmts.User") (tstamp ed557588-fcf4-4758-825a-605e82be557a))
+  (fp_poly
+    (pts
+      (xy -1.25 1.362)
+      (xy -1.025 1.362)
+      (xy -0.825 1.162)
+      (xy 0.825 1.162)
+      (xy 1.025 1.362)
+      (xy 1.25 1.362)
+      (xy 0.95 1.062)
+      (xy -0.95 1.062)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "Cmts.User") (tstamp 68ca2470-c3d0-4b0f-9e79-f07adc086e53))
+  (pad "1" smd custom (at -1.8 0.013) (size 1 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0.5 -0.6)
+          (xy 0.5 0.6)
+          (xy -0.05 0.6)
+          (xy -0.05 0.2)
+          (xy -0.5 0.2)
+          (xy -0.5 -0.35)
+          (xy -0.05 -0.35)
+          (xy -0.05 -0.6)
+        )
+        (width 0.1) (fill yes))
+    ) (tstamp 3ab15565-5ca2-4501-b98c-4dd47777d7cb))
+  (pad "2" smd rect (at -0.45 -0.013) (size 0.7 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp bed81e77-de54-45c4-93b5-7a442c866ad8))
+  (pad "3" smd rect (at 0.575 -0.013) (size 0.45 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1ded984d-4d62-4b65-838f-84acf65951a4))
+  (pad "4" smd custom (at 1.8 -0.013) (size 1 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly
+        (pts
+          (xy -0.5 -0.6)
+          (xy -0.5 0.6)
+          (xy 0.05 0.6)
+          (xy 0.05 0.2)
+          (xy 0.5 0.2)
+          (xy 0.5 -0.35)
+          (xy 0.05 -0.35)
+          (xy 0.05 -0.6)
+        )
+        (width 0.1) (fill yes))
+    ) (tstamp 69f04bd4-344b-4cc8-b453-b333601bbd5c))
+  (model "${KIPRJMOD}/../../assets/3D models/Unnamed-LED_SMD_4P_L4.wrl"
+    (offset (xyz 0 -0.5 1))
+    (scale (xyz 0.3937007874 0.3937007874 0.3937007874))
+    (rotate (xyz 0 0 180))
+  )
+)
