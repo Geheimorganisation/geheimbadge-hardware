@@ -1,447 +1,318 @@
-08-27 03:13:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 359:Plugin executed on: 'linux'
-08-27 03:13:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 360:Plugin executed with python version: '3.10.12 (main, Jun  6 2023, 22:43:10) [GCC 12.2.0]'
-08-27 03:13:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 361:KiCad build version: 7.0.7
-08-27 03:13:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 362:Plugin version: 2.0.7
-08-27 03:13:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 363:Frame repr: <wx._core.Frame object at 0x7feefdd0ea70>
-08-27 03:13:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 387:Preparing replicator with D4 as a reference
-08-27 03:13:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 113:getting a list of all footprints on board
-08-27 03:13:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 435:source anchor footprint is 'D4'
-Located on: ['pixel4']
+11-29 22:04:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 359:Plugin executed on: 'linux'
+11-29 22:04:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 360:Plugin executed with python version: '3.10.13 (main, Aug 24 2023, 12:59:26) [GCC 12.2.0]'
+11-29 22:04:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 361:KiCad build version: 7.0.7
+11-29 22:04:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 362:Plugin version: 2.0.7
+11-29 22:04:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 363:Frame repr: <wx._core.Frame object at 0x7f0f3025e950>
+11-29 22:04:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 387:Preparing replicator with D36 as a reference
+11-29 22:04:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 113:getting a list of all footprints on board
+11-29 22:04:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 435:source anchor footprint is 'D36'
+Located on: ['pixel35']
 With filenames: ['pixel.kicad_sch']
-With sheet_id:['pixel4']
-08-27 03:13:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 442:Corresponding footprints are 
-[('D18', ['pixel30']), ('D32', ['pixel35']), ('D29', ['pixel26']), ('D13', ['pixel15']), ('D7', ['pixel7']), ('D21', ['pixel22']), ('D20', ['pixel28']), ('D38', ['pixel32']), ('D17', ['pixel12']), ('D1', ['pixel1']), ('D35', ['pixel37']), ('D15', ['pixel14']), ('D28', ['pixel24']), ('D22', ['pixel23']), ('D16', ['pixel13']), ('D25', ['pixel18']), ('D19', ['pixel29']), ('D12', ['pixel17']), ('D4', ['pixel4']), ('D24', ['pixel20']), ('D27', ['pixel27']), ('D6', ['pixel6']), ('D3', ['pixel3']), ('D36', ['pixel39']), ('D9', ['pixel8']), ('D14', ['pixel16']), ('D8', ['pixel9']), ('D30', ['pixel25']), ('D33', ['pixel34']), ('D31', ['pixel33']), ('D5', ['pixel5']), ('D10', ['pixel10']), ('D23', ['pixel21']), ('D37', ['pixel38']), ('D2', ['pixel2']), ('D26', ['pixel19']), ('D11', ['pixel11']), ('D34', ['pixel36'])]
-08-27 03:13:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 454:Showing dialog
-08-27 03:13:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 384:constructing a list of sheets suitable for replication on level:'pixel4', file:'pixel.kicad_sch'
-08-27 03:13:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 421:suitable sheets are:[['pixel1'], ['pixel10'], ['pixel11'], ['pixel12'], ['pixel13'], ['pixel14'], ['pixel15'], ['pixel16'], ['pixel17'], ['pixel18'], ['pixel19'], ['pixel2'], ['pixel20'], ['pixel21'], ['pixel22'], ['pixel23'], ['pixel24'], ['pixel25'], ['pixel26'], ['pixel27'], ['pixel28'], ['pixel29'], ['pixel3'], ['pixel30'], ['pixel32'], ['pixel33'], ['pixel34'], ['pixel35'], ['pixel36'], ['pixel37'], ['pixel38'], ['pixel39'], ['pixel5'], ['pixel6'], ['pixel7'], ['pixel8'], ['pixel9']]
-08-27 03:13:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1332:Level selected: ['pixel4']
-08-27 03:13:13 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1167:Filtering list of tracks
-08-27 03:13:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 460:Toolbar position: wx.Point(1219, 158)
-08-27 03:13:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 465:Dialog position: wx.Point(855, 158)
-08-27 03:13:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 384:constructing a list of sheets suitable for replication on level:'pixel4', file:'pixel.kicad_sch'
-08-27 03:13:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 421:suitable sheets are:[['pixel1'], ['pixel10'], ['pixel11'], ['pixel12'], ['pixel13'], ['pixel14'], ['pixel15'], ['pixel16'], ['pixel17'], ['pixel18'], ['pixel19'], ['pixel2'], ['pixel20'], ['pixel21'], ['pixel22'], ['pixel23'], ['pixel24'], ['pixel25'], ['pixel26'], ['pixel27'], ['pixel28'], ['pixel29'], ['pixel3'], ['pixel30'], ['pixel32'], ['pixel33'], ['pixel34'], ['pixel35'], ['pixel36'], ['pixel37'], ['pixel38'], ['pixel39'], ['pixel5'], ['pixel6'], ['pixel7'], ['pixel8'], ['pixel9']]
-08-27 03:13:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1332:Level selected: ['pixel4']
-08-27 03:13:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1167:Filtering list of tracks
-08-27 03:13:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 384:constructing a list of sheets suitable for replication on level:'pixel4', file:'pixel.kicad_sch'
-08-27 03:13:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 421:suitable sheets are:[['pixel1'], ['pixel10'], ['pixel11'], ['pixel12'], ['pixel13'], ['pixel14'], ['pixel15'], ['pixel16'], ['pixel17'], ['pixel18'], ['pixel19'], ['pixel2'], ['pixel20'], ['pixel21'], ['pixel22'], ['pixel23'], ['pixel24'], ['pixel25'], ['pixel26'], ['pixel27'], ['pixel28'], ['pixel29'], ['pixel3'], ['pixel30'], ['pixel32'], ['pixel33'], ['pixel34'], ['pixel35'], ['pixel36'], ['pixel37'], ['pixel38'], ['pixel39'], ['pixel5'], ['pixel6'], ['pixel7'], ['pixel8'], ['pixel9']]
-08-27 03:13:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1332:Level selected: ['pixel4']
-08-27 03:13:19 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1167:Filtering list of tracks
-08-27 03:13:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 384:constructing a list of sheets suitable for replication on level:'pixel4', file:'pixel.kicad_sch'
-08-27 03:13:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 421:suitable sheets are:[['pixel1'], ['pixel10'], ['pixel11'], ['pixel12'], ['pixel13'], ['pixel14'], ['pixel15'], ['pixel16'], ['pixel17'], ['pixel18'], ['pixel19'], ['pixel2'], ['pixel20'], ['pixel21'], ['pixel22'], ['pixel23'], ['pixel24'], ['pixel25'], ['pixel26'], ['pixel27'], ['pixel28'], ['pixel29'], ['pixel3'], ['pixel30'], ['pixel32'], ['pixel33'], ['pixel34'], ['pixel35'], ['pixel36'], ['pixel37'], ['pixel38'], ['pixel39'], ['pixel5'], ['pixel6'], ['pixel7'], ['pixel8'], ['pixel9']]
-08-27 03:13:25 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 207:Replicating layout
-08-27 03:13:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 230:Starting replication of sheets: [['pixel1'], ['pixel10'], ['pixel11'], ['pixel12'], ['pixel13'], ['pixel14'], ['pixel15'], ['pixel16'], ['pixel17'], ['pixel18'], ['pixel19'], ['pixel2'], ['pixel20'], ['pixel21'], ['pixel22'], ['pixel23'], ['pixel24'], ['pixel25'], ['pixel26'], ['pixel27'], ['pixel28'], ['pixel29'], ['pixel3'], ['pixel30'], ['pixel32'], ['pixel33'], ['pixel34'], ['pixel35'], ['pixel36'], ['pixel37'], ['pixel38'], ['pixel39'], ['pixel5'], ['pixel6'], ['pixel7'], ['pixel8'], ['pixel9']]
-on level: ['pixel4']
-with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=True, locked footprints=False, group_only=False
-08-27 03:13:25 root 299:updating GUI message: 'Preparing for replication'
-08-27 03:13:26 root 304:updating GUI with: 0
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 300:Getting the list of source footprints
-08-27 03:13:26 root 304:updating GUI with: 0
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of all the remaining footprints
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 317:Getting source tracks
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1167:Filtering list of tracks
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 321:Getting source zones
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 325:Getting source text items
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 329:Getting source drawing items
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 262:Removing tracks and zones, before footprint placement
-08-27 03:13:26 root 299:updating GUI message: 'Removing zones and tracks'
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:132015000, bottom:140955000, Left:98562000, Right:100935000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:121045000, bottom:129485000, Left:111565000, Right:113938000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:130884944, bottom:137843376, Left:115156624, Right:122115056
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:110515000, bottom:118955000, Left:132562000, Right:134935000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:119884944, bottom:126843376, Left:126156624, Right:133115056
-08-27 03:13:26 root 304:updating GUI with: 13
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:111045000, bottom:119485000, Left:123565000, Right:125938000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:102515000, bottom:110955000, Left:123062000, Right:125435000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:92005000, bottom:99485000, Left:123545000, Right:125938000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:122515000, bottom:130955000, Left:123049000, Right:125422000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:99045000, bottom:107485000, Left:65065000, Right:67438000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:109045000, bottom:117485000, Left:65065000, Right:67438000
-08-27 03:13:26 root 304:updating GUI with: 29
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:112015000, bottom:119995000, Left:98562000, Right:100955000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:91156624, bottom:98115056, Left:66884944, Right:73843376
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:90065000, bottom:92438000, Left:77515000, Right:85955000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:91656624, bottom:98615056, Left:102884944, Right:109843376
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:92384944, bottom:99343376, Left:90884944, Right:97843376
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:112515000, bottom:120955000, Left:74062000, Right:76435000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:101045000, bottom:109485000, Left:74565000, Right:76938000
-08-27 03:13:26 root 304:updating GUI with: 48
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:92515000, bottom:100955000, Left:74062000, Right:76435000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:119156624, bottom:126115056, Left:66156624, Right:73115056
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:90065000, bottom:92438000, Left:115515000, Right:123955000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:91884944, bottom:98843376, Left:126884944, Right:133843376
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:102005000, bottom:109985000, Left:99045000, Right:101438000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:100515000, bottom:108955000, Left:132562000, Right:134935000
-08-27 03:13:26 root 304:updating GUI with: 64
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:140562000, bottom:142935000, Left:87545000, Right:95985000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:121045000, bottom:129485000, Left:74565000, Right:76938000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:102515000, bottom:110955000, Left:86062000, Right:88435000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:130156624, bottom:137115056, Left:77156624, Right:84115056
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:92505000, bottom:99485000, Left:86545000, Right:88938000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:111045000, bottom:119485000, Left:86565000, Right:88938000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:122515000, bottom:130955000, Left:86062000, Right:88435000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:131045000, bottom:139485000, Left:86565000, Right:88938000
-08-27 03:13:26 root 304:updating GUI with: 86
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:140562000, bottom:145455000, Left:105150000, Right:110985000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:132515000, bottom:140955000, Left:111062000, Right:113435000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:112515000, bottom:120955000, Left:111062000, Right:113435000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:101045000, bottom:109485000, Left:111565000, Right:113938000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:92515000, bottom:100955000, Left:111062000, Right:113435000
-08-27 03:13:26 root 299:updating GUI message: 'Replicating footprints'
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 724:Replicating footprints
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel1']
-08-27 03:13:26 root 304:updating GUI with: 1
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel10']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel11']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel12']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel13']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel14']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel15']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel16']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel17']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel18']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel19']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel2']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel20']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel21']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel22']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel23']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel24']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel25']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel26']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel27']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel28']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel29']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel3']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel30']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel32']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel33']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel34']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel35']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel36']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel37']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel38']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel39']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel5']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel6']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel7']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel8']
-08-27 03:13:26 root 304:updating GUI with: 96
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel9']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 270:Removing tracks and zones, after footprint placement
-08-27 03:13:26 root 299:updating GUI message: 'Removing zones and tracks'
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:132015000, bottom:139995000, Left:98562000, Right:100955000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:122005000, bottom:129985000, Left:111545000, Right:113938000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:130531391, bottom:137489822, Left:115510178, Right:122468609
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:110015000, bottom:117995000, Left:132562000, Right:134955000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:119531391, bottom:126489822, Left:126510178, Right:133468609
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:112005000, bottom:119985000, Left:123545000, Right:125938000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:102015000, bottom:109995000, Left:123062000, Right:125455000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:92005000, bottom:99985000, Left:123545000, Right:125938000
-08-27 03:13:26 root 304:updating GUI with: 21
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:122015000, bottom:129995000, Left:123049000, Right:125442000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:100005000, bottom:107985000, Left:65045000, Right:67438000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:110005000, bottom:117985000, Left:65045000, Right:67438000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:112015000, bottom:119995000, Left:98562000, Right:100955000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:91510178, bottom:98468609, Left:66531391, Right:73489822
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:90045000, bottom:92438000, Left:77015000, Right:84995000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:92010178, bottom:98968609, Left:102531391, Right:109489822
-08-27 03:13:26 root 304:updating GUI with: 40
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:92031391, bottom:98989822, Left:90531391, Right:97489822
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:112015000, bottom:119995000, Left:74062000, Right:76455000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:102005000, bottom:109985000, Left:74545000, Right:76938000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:92015000, bottom:99995000, Left:74062000, Right:76455000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:119510178, bottom:126468609, Left:66510178, Right:73468609
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:90045000, bottom:92438000, Left:115015000, Right:122995000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:91531391, bottom:98489822, Left:126531391, Right:133489822
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:102005000, bottom:109985000, Left:99045000, Right:101438000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:100015000, bottom:107995000, Left:132562000, Right:134955000
-08-27 03:13:26 root 304:updating GUI with: 64
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:140562000, bottom:142955000, Left:88505000, Right:96485000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:122005000, bottom:129985000, Left:74545000, Right:76938000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:102015000, bottom:109995000, Left:86062000, Right:88455000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:130510178, bottom:137468609, Left:77510178, Right:84468609
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:92005000, bottom:99985000, Left:86545000, Right:88938000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:112005000, bottom:119985000, Left:86545000, Right:88938000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:122015000, bottom:129995000, Left:86062000, Right:88455000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:132005000, bottom:139985000, Left:86545000, Right:88938000
-08-27 03:13:26 root 304:updating GUI with: 86
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:140562000, bottom:142955000, Left:103505000, Right:111485000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:132015000, bottom:139995000, Left:111062000, Right:113455000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:112015000, bottom:119995000, Left:111062000, Right:113455000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:102005000, bottom:109985000, Left:111545000, Right:113938000
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1113:Remove bounding box top:92015000, bottom:99995000, Left:111062000, Right:113455000
-08-27 03:13:26 root 299:updating GUI message: 'Replicating tracks'
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 889:Replicating tracks
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel1']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel1'] :[('Net-(D4-DIN)', 'Net-(D1-DIN)'), ('VCC', 'VCC'), ('/pixel4/D_{out}', '/pixel1/D_{out}'), ('GND', 'GND')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel10']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel10'] :[('VCC', 'VCC'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D10-DIN)'), ('/pixel4/D_{out}', '/pixel10/D_{out}')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel11']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel11'] :[('/pixel3/D_{out}', '/pixel10/D_{out}'), ('VCC', 'VCC'), ('/pixel4/D_{out}', '/pixel11/D_{out}'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D11-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel12']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel12'] :[('/pixel4/D_{out}', '/pixel12/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D17-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel13']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel13'] :[('VCC', 'VCC'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D16-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel14']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel14'] :[('Net-(D4-DIN)', 'Net-(D15-DIN)'), ('VCC', 'VCC'), ('GND', 'GND')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel15']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel15'] :[('VCC', 'VCC'), ('/pixel4/D_{out}', '/pixel15/D_{out}'), ('Net-(D4-DIN)', 'Net-(D13-DIN)'), ('GND', 'GND')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel16']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel16'] :[('Net-(D4-DIN)', 'Net-(D14-DIN)'), ('VCC', 'VCC'), ('GND', 'GND'), ('/pixel3/D_{out}', '/pixel15/D_{out}')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel17']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel17'] :[('VCC', 'VCC'), ('GND', 'GND'), ('/pixel3/D_{out}', '/pixel11/D_{out}'), ('Net-(D4-DIN)', 'Net-(D12-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel18']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel18'] :[('VCC', 'VCC'), ('Net-(D4-DIN)', 'Net-(D25-DIN)'), ('GND', 'GND'), ('/pixel4/D_{out}', '/pixel18/D_{out}')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel19']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel19'] :[('/pixel4/D_{out}', '/pixel19/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND'), ('/pixel3/D_{out}', '/pixel18/D_{out}'), ('Net-(D4-DIN)', 'Net-(D26-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel2']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel2'] :[('/pixel4/D_{out}', '/pixel2/D_{out}'), ('Net-(D4-DIN)', 'Net-(D2-DIN)'), ('VCC', 'VCC'), ('GND', 'GND'), ('/pixel3/D_{out}', '/pixel1/D_{out}')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel20']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel20'] :[('VCC', 'VCC'), ('Net-(D4-DIN)', 'Net-(D24-DIN)'), ('GND', 'GND')]
-08-27 03:13:26 root 304:updating GUI with: 32
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel21']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel21'] :[('VCC', 'VCC'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D23-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel22']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel22'] :[('VCC', 'VCC'), ('/pixel4/D_{out}', '/pixel22/D_{out}'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D21-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel23']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel23'] :[('VCC', 'VCC'), ('/pixel3/D_{out}', '/pixel22/D_{out}'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D22-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel24']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel24'] :[('VCC', 'VCC'), ('GND', 'GND'), ('/pixel4/D_{out}', '/pixel24/D_{out}'), ('Net-(D4-DIN)', 'Net-(D28-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel25']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel25'] :[('VCC', 'VCC'), ('/pixel4/D_{out}', '/pixel25/D_{out}'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D30-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel26']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel26'] :[('VCC', 'VCC'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D29-DIN)'), ('/pixel3/D_{out}', '/pixel24/D_{out}')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel27']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel27'] :[('/pixel3/D_{out}', '/pixel19/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D27-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel28']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel28'] :[('VCC', 'VCC'), ('Net-(D4-DIN)', 'Net-(D20-DIN)'), ('GND', 'GND')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel29']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel29'] :[('VCC', 'VCC'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D19-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel3']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel3'] :[('/pixel3/D_{out}', '/pixel2/D_{out}'), ('VCC', 'VCC'), ('/pixel4/D_{out}', '/pixel3/D_{out}'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D3-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel30']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel30'] :[('VCC', 'VCC'), ('/pixel3/D_{out}', '/pixel12/D_{out}'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D18-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel32']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel32'] :[('Net-(D4-DIN)', 'Net-(D38-DIN)'), ('VCC', 'VCC'), ('GND', 'GND')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel33']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel33'] :[('Net-(D4-DIN)', 'Net-(D31-DIN)'), ('/pixel4/D_{out}', '/pixel33/D_{out}'), ('/pixel3/D_{out}', '/pixel25/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel34']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel34'] :[('VCC', 'VCC'), ('GND', 'GND'), ('/pixel4/D_{out}', '/pixel34/D_{out}'), ('Net-(D4-DIN)', 'Net-(D33-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel35']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel35'] :[('Net-(D4-DIN)', 'Net-(D32-DIN)'), ('VCC', 'VCC'), ('GND', 'GND'), ('/pixel3/D_{out}', '/pixel33/D_{out}')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel36']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel36'] :[('Net-(D4-DIN)', 'Net-(D34-DIN)'), ('/pixel4/D_{out}', '/pixel36/D_{out}'), ('/pixel3/D_{out}', '/pixel34/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel37']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel37'] :[('Net-(D4-DIN)', 'Net-(D35-DIN)'), ('/pixel3/D_{out}', '/pixel36/D_{out}'), ('VCC', 'VCC'), ('/pixel4/D_{out}', '/pixel37/D_{out}'), ('GND', 'GND')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel38']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel38'] :[('VCC', 'VCC'), ('Net-(D4-DIN)', 'Net-(D37-DIN)'), ('GND', 'GND')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel39']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel39'] :[('VCC', 'VCC'), ('Net-(D4-DIN)', 'Net-(D36-DIN)'), ('GND', 'GND'), ('/pixel3/D_{out}', '/pixel37/D_{out}')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel5']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel5'] :[('VCC', 'VCC'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D5-DIN)'), ('/pixel4/D_{out}', '/pixel5/D_{out}')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel6']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel6'] :[('/pixel4/D_{out}', '/pixel6/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D6-DIN)'), ('/pixel3/D_{out}', '/pixel5/D_{out}')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel7']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel7'] :[('/pixel4/D_{out}', '/pixel7/D_{out}'), ('Net-(D4-DIN)', 'Net-(D7-DIN)'), ('/pixel3/D_{out}', '/pixel6/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel8']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel8'] :[('VCC', 'VCC'), ('Net-(D4-DIN)', 'Net-(D9-DIN)'), ('GND', 'GND')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel9']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel9'] :[('/pixel3/D_{out}', '/pixel7/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D8-DIN)')]
-08-27 03:13:26 root 299:updating GUI message: 'Replicating zones'
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 947:Replicating zones
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel1']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel1'] :[('Net-(D4-DIN)', 'Net-(D1-DIN)'), ('VCC', 'VCC'), ('/pixel4/D_{out}', '/pixel1/D_{out}'), ('GND', 'GND')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel10']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel10'] :[('VCC', 'VCC'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D10-DIN)'), ('/pixel4/D_{out}', '/pixel10/D_{out}')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel11']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel11'] :[('/pixel3/D_{out}', '/pixel10/D_{out}'), ('VCC', 'VCC'), ('/pixel4/D_{out}', '/pixel11/D_{out}'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D11-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel12']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel12'] :[('/pixel4/D_{out}', '/pixel12/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D17-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel13']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel13'] :[('VCC', 'VCC'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D16-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel14']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel14'] :[('Net-(D4-DIN)', 'Net-(D15-DIN)'), ('VCC', 'VCC'), ('GND', 'GND')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel15']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel15'] :[('VCC', 'VCC'), ('/pixel4/D_{out}', '/pixel15/D_{out}'), ('Net-(D4-DIN)', 'Net-(D13-DIN)'), ('GND', 'GND')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel16']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel16'] :[('Net-(D4-DIN)', 'Net-(D14-DIN)'), ('VCC', 'VCC'), ('GND', 'GND'), ('/pixel3/D_{out}', '/pixel15/D_{out}')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel17']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel17'] :[('VCC', 'VCC'), ('GND', 'GND'), ('/pixel3/D_{out}', '/pixel11/D_{out}'), ('Net-(D4-DIN)', 'Net-(D12-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel18']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel18'] :[('VCC', 'VCC'), ('Net-(D4-DIN)', 'Net-(D25-DIN)'), ('GND', 'GND'), ('/pixel4/D_{out}', '/pixel18/D_{out}')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel19']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel19'] :[('/pixel4/D_{out}', '/pixel19/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND'), ('/pixel3/D_{out}', '/pixel18/D_{out}'), ('Net-(D4-DIN)', 'Net-(D26-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel2']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel2'] :[('/pixel4/D_{out}', '/pixel2/D_{out}'), ('Net-(D4-DIN)', 'Net-(D2-DIN)'), ('VCC', 'VCC'), ('GND', 'GND'), ('/pixel3/D_{out}', '/pixel1/D_{out}')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel20']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel20'] :[('VCC', 'VCC'), ('Net-(D4-DIN)', 'Net-(D24-DIN)'), ('GND', 'GND')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel21']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel21'] :[('VCC', 'VCC'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D23-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel22']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel22'] :[('VCC', 'VCC'), ('/pixel4/D_{out}', '/pixel22/D_{out}'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D21-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel23']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel23'] :[('VCC', 'VCC'), ('/pixel3/D_{out}', '/pixel22/D_{out}'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D22-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel24']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel24'] :[('VCC', 'VCC'), ('GND', 'GND'), ('/pixel4/D_{out}', '/pixel24/D_{out}'), ('Net-(D4-DIN)', 'Net-(D28-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel25']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel25'] :[('VCC', 'VCC'), ('/pixel4/D_{out}', '/pixel25/D_{out}'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D30-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel26']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel26'] :[('VCC', 'VCC'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D29-DIN)'), ('/pixel3/D_{out}', '/pixel24/D_{out}')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel27']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel27'] :[('/pixel3/D_{out}', '/pixel19/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D27-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel28']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel28'] :[('VCC', 'VCC'), ('Net-(D4-DIN)', 'Net-(D20-DIN)'), ('GND', 'GND')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel29']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel29'] :[('VCC', 'VCC'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D19-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel3']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel3'] :[('/pixel3/D_{out}', '/pixel2/D_{out}'), ('VCC', 'VCC'), ('/pixel4/D_{out}', '/pixel3/D_{out}'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D3-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel30']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel30'] :[('VCC', 'VCC'), ('/pixel3/D_{out}', '/pixel12/D_{out}'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D18-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel32']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel32'] :[('Net-(D4-DIN)', 'Net-(D38-DIN)'), ('VCC', 'VCC'), ('GND', 'GND')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel33']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel33'] :[('Net-(D4-DIN)', 'Net-(D31-DIN)'), ('/pixel4/D_{out}', '/pixel33/D_{out}'), ('/pixel3/D_{out}', '/pixel25/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel34']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel34'] :[('VCC', 'VCC'), ('GND', 'GND'), ('/pixel4/D_{out}', '/pixel34/D_{out}'), ('Net-(D4-DIN)', 'Net-(D33-DIN)')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel35']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel35'] :[('Net-(D4-DIN)', 'Net-(D32-DIN)'), ('VCC', 'VCC'), ('GND', 'GND'), ('/pixel3/D_{out}', '/pixel33/D_{out}')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel36']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel36'] :[('Net-(D4-DIN)', 'Net-(D34-DIN)'), ('/pixel4/D_{out}', '/pixel36/D_{out}'), ('/pixel3/D_{out}', '/pixel34/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel37']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel37'] :[('Net-(D4-DIN)', 'Net-(D35-DIN)'), ('/pixel3/D_{out}', '/pixel36/D_{out}'), ('VCC', 'VCC'), ('/pixel4/D_{out}', '/pixel37/D_{out}'), ('GND', 'GND')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel38']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel38'] :[('VCC', 'VCC'), ('Net-(D4-DIN)', 'Net-(D37-DIN)'), ('GND', 'GND')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel39']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel39'] :[('VCC', 'VCC'), ('Net-(D4-DIN)', 'Net-(D36-DIN)'), ('GND', 'GND'), ('/pixel3/D_{out}', '/pixel37/D_{out}')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel5']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel5'] :[('VCC', 'VCC'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D5-DIN)'), ('/pixel4/D_{out}', '/pixel5/D_{out}')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel6']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel6'] :[('/pixel4/D_{out}', '/pixel6/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D6-DIN)'), ('/pixel3/D_{out}', '/pixel5/D_{out}')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel7']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel7'] :[('/pixel4/D_{out}', '/pixel7/D_{out}'), ('Net-(D4-DIN)', 'Net-(D7-DIN)'), ('/pixel3/D_{out}', '/pixel6/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel8']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel8'] :[('VCC', 'VCC'), ('Net-(D4-DIN)', 'Net-(D9-DIN)'), ('GND', 'GND')]
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel9']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel9'] :[('/pixel3/D_{out}', '/pixel7/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND'), ('Net-(D4-DIN)', 'Net-(D8-DIN)')]
-08-27 03:13:26 root 299:updating GUI message: 'Replicating text'
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1025:Replicating text
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel1']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel10']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel11']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel12']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel13']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel14']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel15']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel16']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel17']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel18']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel19']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel2']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel20']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel21']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel22']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel23']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel24']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel25']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel26']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel27']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel28']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel29']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel3']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel30']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel32']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel33']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel34']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel35']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel36']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel37']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel38']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel39']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel5']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel6']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel7']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel8']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel9']
-08-27 03:13:26 root 299:updating GUI message: 'Replicating drawings'
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1065:Replicating drawings
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel1']
-08-27 03:13:26 root 304:updating GUI with: 2
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel10']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel11']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel12']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel13']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel14']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel15']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel16']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel17']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel18']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel19']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel2']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel20']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel21']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel22']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel23']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel24']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel25']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel26']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel27']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel28']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel29']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel3']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel30']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel32']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel33']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel34']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel35']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel36']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel37']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel38']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel39']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel5']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel6']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel7']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel8']
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel9']
-08-27 03:13:26 root 299:updating GUI message: 'Removing duplicates'
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 223:Replication complete
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 226:Letting the user know there are some issues with replicated design
-08-27 03:13:26 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 230:Looks like the design has an exotic connectivity that is not supported by the plugin
+With sheet_id:['pixel35']
+11-29 22:04:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 442:Corresponding footprints are 
+[('D4', ['pixel3']), ('D38', ['pixel37']), ('D34', ['pixel33']), ('D11', ['pixel10']), ('D28', ['pixel27']), ('D10', ['pixel9']), ('D22', ['pixel21']), ('D36', ['pixel35']), ('D14', ['pixel13']), ('D23', ['pixel22']), ('D30', ['pixel29']), ('D17', ['pixel16']), ('D1', ['pixel0']), ('D20', ['pixel19']), ('D35', ['pixel34']), ('D15', ['pixel14']), ('D27', ['pixel26']), ('D37', ['pixel36']), ('D8', ['pixel7']), ('D33', ['pixel32']), ('D3', ['pixel2']), ('D32', ['pixel31']), ('D25', ['pixel24']), ('D18', ['pixel17']), ('D26', ['pixel25']), ('D24', ['pixel23']), ('D9', ['pixel8']), ('D21', ['pixel20']), ('D13', ['pixel12']), ('D19', ['pixel18']), ('D29', ['pixel28']), ('D12', ['pixel11']), ('D7', ['pixel6']), ('D5', ['pixel4']), ('D31', ['pixel30']), ('D2', ['pixel1']), ('D6', ['pixel5']), ('D16', ['pixel15'])]
+11-29 22:04:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 454:Showing dialog
+11-29 22:04:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 384:constructing a list of sheets suitable for replication on level:'pixel35', file:'pixel.kicad_sch'
+11-29 22:04:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 421:suitable sheets are:[['pixel0'], ['pixel1'], ['pixel10'], ['pixel11'], ['pixel12'], ['pixel13'], ['pixel14'], ['pixel15'], ['pixel16'], ['pixel17'], ['pixel18'], ['pixel19'], ['pixel2'], ['pixel20'], ['pixel21'], ['pixel22'], ['pixel23'], ['pixel24'], ['pixel25'], ['pixel26'], ['pixel27'], ['pixel28'], ['pixel29'], ['pixel3'], ['pixel30'], ['pixel31'], ['pixel32'], ['pixel33'], ['pixel34'], ['pixel36'], ['pixel37'], ['pixel4'], ['pixel5'], ['pixel6'], ['pixel7'], ['pixel8'], ['pixel9']]
+11-29 22:04:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1332:Level selected: ['pixel35']
+11-29 22:04:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1167:Filtering list of tracks
+11-29 22:04:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 460:Toolbar position: wx.Point(1219, 158)
+11-29 22:04:41 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 465:Dialog position: wx.Point(855, 158)
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 384:constructing a list of sheets suitable for replication on level:'pixel35', file:'pixel.kicad_sch'
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 421:suitable sheets are:[['pixel0'], ['pixel1'], ['pixel10'], ['pixel11'], ['pixel12'], ['pixel13'], ['pixel14'], ['pixel15'], ['pixel16'], ['pixel17'], ['pixel18'], ['pixel19'], ['pixel2'], ['pixel20'], ['pixel21'], ['pixel22'], ['pixel23'], ['pixel24'], ['pixel25'], ['pixel26'], ['pixel27'], ['pixel28'], ['pixel29'], ['pixel3'], ['pixel30'], ['pixel31'], ['pixel32'], ['pixel33'], ['pixel34'], ['pixel36'], ['pixel37'], ['pixel4'], ['pixel5'], ['pixel6'], ['pixel7'], ['pixel8'], ['pixel9']]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 207:Replicating layout
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 230:Starting replication of sheets: [['pixel0'], ['pixel1'], ['pixel10'], ['pixel11'], ['pixel12'], ['pixel13'], ['pixel14'], ['pixel15'], ['pixel16'], ['pixel17'], ['pixel18'], ['pixel19'], ['pixel2'], ['pixel20'], ['pixel21'], ['pixel22'], ['pixel23'], ['pixel24'], ['pixel25'], ['pixel26'], ['pixel27'], ['pixel28'], ['pixel29'], ['pixel3'], ['pixel30'], ['pixel31'], ['pixel32'], ['pixel33'], ['pixel34'], ['pixel36'], ['pixel37'], ['pixel4'], ['pixel5'], ['pixel6'], ['pixel7'], ['pixel8'], ['pixel9']]
+on level: ['pixel35']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+11-29 22:04:46 root 299:updating GUI message: 'Preparing for replication'
+11-29 22:04:46 root 304:updating GUI with: 0
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 300:Getting the list of source footprints
+11-29 22:04:46 root 304:updating GUI with: 0
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of all the remaining footprints
+11-29 22:04:46 root 304:updating GUI with: 16
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 317:Getting source tracks
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1167:Filtering list of tracks
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 321:Getting source zones
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 325:Getting source text items
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 329:Getting source drawing items
+11-29 22:04:46 root 299:updating GUI message: 'Replicating footprints'
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 724:Replicating footprints
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel0']
+11-29 22:04:46 root 304:updating GUI with: 2
+11-29 22:04:46 root 304:updating GUI with: 2
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel1']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel10']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel11']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel12']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel13']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel14']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel15']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel16']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel17']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel18']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel19']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel2']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel20']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel21']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel22']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel23']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel24']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel25']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel26']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel27']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel28']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel29']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel3']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel30']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel31']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel32']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel33']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel34']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel36']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel37']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel4']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel5']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel6']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel7']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel8']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 730:Replicating footprints on sheet ['pixel9']
+11-29 22:04:46 root 299:updating GUI message: 'Replicating tracks'
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 889:Replicating tracks
+11-29 22:04:46 root 304:updating GUI with: 0
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel0']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel0'] :[('/pixel35/D_{out}', '/pixel0/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel1']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel1'] :[('/pixel34/D_{out}', '/pixel0/D_{out}'), ('VCC', 'VCC'), ('/pixel35/D_{out}', '/pixel1/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel10']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel10'] :[('/pixel35/D_{out}', '/pixel10/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel11']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel11'] :[('/pixel35/D_{out}', '/pixel11/D_{out}'), ('VCC', 'VCC'), ('/pixel34/D_{out}', '/pixel10/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel12']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel12'] :[('VCC', 'VCC'), ('GND', 'GND'), ('/pixel34/D_{out}', '/pixel11/D_{out}'), ('/pixel35/D_{out}', '/pixel12/D_{out}')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel13']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel13'] :[('/pixel35/D_{out}', '/pixel13/D_{out}'), ('/pixel34/D_{out}', '/pixel12/D_{out}'), ('GND', 'GND'), ('VCC', 'VCC')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel14']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel14'] :[('VCC', 'VCC'), ('/pixel35/D_{out}', '/pixel14/D_{out}'), ('/pixel34/D_{out}', '/pixel13/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel15']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel15'] :[('/pixel34/D_{out}', '/pixel14/D_{out}'), ('VCC', 'VCC'), ('/pixel35/D_{out}', '/pixel15/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel16']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel16'] :[('/pixel34/D_{out}', '/pixel15/D_{out}'), ('VCC', 'VCC'), ('/pixel35/D_{out}', '/pixel16/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel17']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel17'] :[('/pixel34/D_{out}', '/pixel16/D_{out}'), ('VCC', 'VCC'), ('/pixel35/D_{out}', '/pixel17/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel18']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel18'] :[('/pixel35/D_{out}', '/pixel18/D_{out}'), ('/pixel34/D_{out}', '/pixel17/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel19']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel19'] :[('/pixel35/D_{out}', '/pixel19/D_{out}'), ('VCC', 'VCC'), ('/pixel34/D_{out}', '/pixel18/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel2']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel2'] :[('/pixel35/D_{out}', '/pixel2/D_{out}'), ('VCC', 'VCC'), ('/pixel34/D_{out}', '/pixel1/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel20']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel20'] :[('/pixel35/D_{out}', '/pixel20/D_{out}'), ('VCC', 'VCC'), ('/pixel34/D_{out}', '/pixel19/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel21']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel21'] :[('/pixel35/D_{out}', '/pixel21/D_{out}'), ('/pixel34/D_{out}', '/pixel20/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel22']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel22'] :[('/pixel35/D_{out}', '/pixel22/D_{out}'), ('VCC', 'VCC'), ('/pixel34/D_{out}', '/pixel21/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel23']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel23'] :[('/pixel34/D_{out}', '/pixel22/D_{out}'), ('VCC', 'VCC'), ('/pixel35/D_{out}', '/pixel23/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel24']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel24'] :[('/pixel34/D_{out}', '/pixel23/D_{out}'), ('/pixel35/D_{out}', '/pixel24/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel25']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel25'] :[('/pixel34/D_{out}', '/pixel24/D_{out}'), ('VCC', 'VCC'), ('/pixel35/D_{out}', '/pixel25/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel26']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel26'] :[('/pixel35/D_{out}', '/pixel26/D_{out}'), ('VCC', 'VCC'), ('/pixel34/D_{out}', '/pixel25/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel27']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel27'] :[('/pixel34/D_{out}', '/pixel26/D_{out}'), ('/pixel35/D_{out}', '/pixel27/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel28']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel28'] :[('/pixel35/D_{out}', '/pixel28/D_{out}'), ('VCC', 'VCC'), ('/pixel34/D_{out}', '/pixel27/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel29']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel29'] :[('/pixel35/D_{out}', '/pixel29/D_{out}'), ('VCC', 'VCC'), ('/pixel34/D_{out}', '/pixel28/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel3']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel3'] :[('/pixel34/D_{out}', '/pixel2/D_{out}'), ('GND', 'GND'), ('/pixel35/D_{out}', '/pixel3/D_{out}'), ('VCC', 'VCC')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel30']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel30'] :[('/pixel35/D_{out}', '/pixel30/D_{out}'), ('/pixel34/D_{out}', '/pixel29/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel31']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel31'] :[('/pixel34/D_{out}', '/pixel30/D_{out}'), ('/pixel35/D_{out}', '/pixel31/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel32']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel32'] :[('/pixel35/D_{out}', '/pixel32/D_{out}'), ('VCC', 'VCC'), ('/pixel34/D_{out}', '/pixel31/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel33']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel33'] :[('/pixel35/D_{out}', '/pixel33/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND'), ('/pixel34/D_{out}', '/pixel32/D_{out}')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel34']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel34'] :[('/pixel34/D_{out}', '/pixel33/D_{out}'), ('GND', 'GND'), ('/pixel35/D_{out}', '/pixel34/D_{out}'), ('VCC', 'VCC')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel36']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel36'] :[('/pixel35/D_{out}', '/pixel36/D_{out}'), ('/pixel34/D_{out}', '/pixel35/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel37']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel37'] :[('/pixel35/D_{out}', '/pixel37/D_{out}'), ('VCC', 'VCC'), ('/pixel34/D_{out}', '/pixel36/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel4']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel4'] :[('/pixel34/D_{out}', '/pixel3/D_{out}'), ('VCC', 'VCC'), ('/pixel35/D_{out}', '/pixel4/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel5']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel5'] :[('/pixel35/D_{out}', '/pixel5/D_{out}'), ('/pixel34/D_{out}', '/pixel4/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel6']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel6'] :[('/pixel35/D_{out}', '/pixel6/D_{out}'), ('VCC', 'VCC'), ('/pixel34/D_{out}', '/pixel5/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel7']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel7'] :[('VCC', 'VCC'), ('/pixel35/D_{out}', '/pixel7/D_{out}'), ('GND', 'GND'), ('/pixel34/D_{out}', '/pixel6/D_{out}')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel8']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel8'] :[('/pixel34/D_{out}', '/pixel7/D_{out}'), ('VCC', 'VCC'), ('/pixel35/D_{out}', '/pixel8/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 895:Replicating tracks on sheet ['pixel9']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel9'] :[('VCC', 'VCC'), ('GND', 'GND'), ('/pixel34/D_{out}', '/pixel8/D_{out}')]
+11-29 22:04:46 root 299:updating GUI message: 'Replicating zones'
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 947:Replicating zones
+11-29 22:04:46 root 304:updating GUI with: 0
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel0']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel0'] :[('/pixel35/D_{out}', '/pixel0/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel1']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel1'] :[('/pixel34/D_{out}', '/pixel0/D_{out}'), ('VCC', 'VCC'), ('/pixel35/D_{out}', '/pixel1/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel10']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel10'] :[('/pixel35/D_{out}', '/pixel10/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel11']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel11'] :[('/pixel35/D_{out}', '/pixel11/D_{out}'), ('VCC', 'VCC'), ('/pixel34/D_{out}', '/pixel10/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel12']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel12'] :[('VCC', 'VCC'), ('GND', 'GND'), ('/pixel34/D_{out}', '/pixel11/D_{out}'), ('/pixel35/D_{out}', '/pixel12/D_{out}')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel13']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel13'] :[('/pixel35/D_{out}', '/pixel13/D_{out}'), ('/pixel34/D_{out}', '/pixel12/D_{out}'), ('GND', 'GND'), ('VCC', 'VCC')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel14']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel14'] :[('VCC', 'VCC'), ('/pixel35/D_{out}', '/pixel14/D_{out}'), ('/pixel34/D_{out}', '/pixel13/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel15']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel15'] :[('/pixel34/D_{out}', '/pixel14/D_{out}'), ('VCC', 'VCC'), ('/pixel35/D_{out}', '/pixel15/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel16']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel16'] :[('/pixel34/D_{out}', '/pixel15/D_{out}'), ('VCC', 'VCC'), ('/pixel35/D_{out}', '/pixel16/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel17']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel17'] :[('/pixel34/D_{out}', '/pixel16/D_{out}'), ('VCC', 'VCC'), ('/pixel35/D_{out}', '/pixel17/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel18']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel18'] :[('/pixel35/D_{out}', '/pixel18/D_{out}'), ('/pixel34/D_{out}', '/pixel17/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel19']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel19'] :[('/pixel35/D_{out}', '/pixel19/D_{out}'), ('VCC', 'VCC'), ('/pixel34/D_{out}', '/pixel18/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel2']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel2'] :[('/pixel35/D_{out}', '/pixel2/D_{out}'), ('VCC', 'VCC'), ('/pixel34/D_{out}', '/pixel1/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel20']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel20'] :[('/pixel35/D_{out}', '/pixel20/D_{out}'), ('VCC', 'VCC'), ('/pixel34/D_{out}', '/pixel19/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel21']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel21'] :[('/pixel35/D_{out}', '/pixel21/D_{out}'), ('/pixel34/D_{out}', '/pixel20/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel22']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel22'] :[('/pixel35/D_{out}', '/pixel22/D_{out}'), ('VCC', 'VCC'), ('/pixel34/D_{out}', '/pixel21/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel23']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel23'] :[('/pixel34/D_{out}', '/pixel22/D_{out}'), ('VCC', 'VCC'), ('/pixel35/D_{out}', '/pixel23/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel24']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel24'] :[('/pixel34/D_{out}', '/pixel23/D_{out}'), ('/pixel35/D_{out}', '/pixel24/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel25']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel25'] :[('/pixel34/D_{out}', '/pixel24/D_{out}'), ('VCC', 'VCC'), ('/pixel35/D_{out}', '/pixel25/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel26']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel26'] :[('/pixel35/D_{out}', '/pixel26/D_{out}'), ('VCC', 'VCC'), ('/pixel34/D_{out}', '/pixel25/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel27']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel27'] :[('/pixel34/D_{out}', '/pixel26/D_{out}'), ('/pixel35/D_{out}', '/pixel27/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel28']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel28'] :[('/pixel35/D_{out}', '/pixel28/D_{out}'), ('VCC', 'VCC'), ('/pixel34/D_{out}', '/pixel27/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel29']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel29'] :[('/pixel35/D_{out}', '/pixel29/D_{out}'), ('VCC', 'VCC'), ('/pixel34/D_{out}', '/pixel28/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel3']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel3'] :[('/pixel34/D_{out}', '/pixel2/D_{out}'), ('GND', 'GND'), ('/pixel35/D_{out}', '/pixel3/D_{out}'), ('VCC', 'VCC')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel30']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel30'] :[('/pixel35/D_{out}', '/pixel30/D_{out}'), ('/pixel34/D_{out}', '/pixel29/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel31']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel31'] :[('/pixel34/D_{out}', '/pixel30/D_{out}'), ('/pixel35/D_{out}', '/pixel31/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel32']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel32'] :[('/pixel35/D_{out}', '/pixel32/D_{out}'), ('VCC', 'VCC'), ('/pixel34/D_{out}', '/pixel31/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel33']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel33'] :[('/pixel35/D_{out}', '/pixel33/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND'), ('/pixel34/D_{out}', '/pixel32/D_{out}')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel34']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel34'] :[('/pixel34/D_{out}', '/pixel33/D_{out}'), ('GND', 'GND'), ('/pixel35/D_{out}', '/pixel34/D_{out}'), ('VCC', 'VCC')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel36']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel36'] :[('/pixel35/D_{out}', '/pixel36/D_{out}'), ('/pixel34/D_{out}', '/pixel35/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel37']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel37'] :[('/pixel35/D_{out}', '/pixel37/D_{out}'), ('VCC', 'VCC'), ('/pixel34/D_{out}', '/pixel36/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel4']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel4'] :[('/pixel34/D_{out}', '/pixel3/D_{out}'), ('VCC', 'VCC'), ('/pixel35/D_{out}', '/pixel4/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel5']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel5'] :[('/pixel35/D_{out}', '/pixel5/D_{out}'), ('/pixel34/D_{out}', '/pixel4/D_{out}'), ('VCC', 'VCC'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel6']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel6'] :[('/pixel35/D_{out}', '/pixel6/D_{out}'), ('VCC', 'VCC'), ('/pixel34/D_{out}', '/pixel5/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel7']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel7'] :[('VCC', 'VCC'), ('/pixel35/D_{out}', '/pixel7/D_{out}'), ('GND', 'GND'), ('/pixel34/D_{out}', '/pixel6/D_{out}')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel8']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel8'] :[('/pixel34/D_{out}', '/pixel7/D_{out}'), ('VCC', 'VCC'), ('/pixel35/D_{out}', '/pixel8/D_{out}'), ('GND', 'GND')]
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 954:Replicating zones on sheet ['pixel9']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Net pairs for sheet ['pixel9'] :[('VCC', 'VCC'), ('GND', 'GND'), ('/pixel34/D_{out}', '/pixel8/D_{out}')]
+11-29 22:04:46 root 299:updating GUI message: 'Replicating text'
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1025:Replicating text
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel0']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel1']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel10']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel11']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel12']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel13']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel14']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel15']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel16']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel17']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel18']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel19']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel2']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel20']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel21']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel22']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel23']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel24']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel25']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel26']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel27']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel28']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel29']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel3']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel30']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel31']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel32']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel33']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel34']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel36']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel37']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel4']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel5']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel6']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel7']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel8']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating text on sheet ['pixel9']
+11-29 22:04:46 root 299:updating GUI message: 'Replicating drawings'
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1065:Replicating drawings
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel0']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel1']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel10']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel11']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel12']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel13']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel14']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel15']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel16']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel17']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel18']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel19']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel2']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel20']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel21']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel22']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel23']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel24']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel25']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel26']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel27']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel28']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel29']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel3']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel30']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel31']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel32']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel33']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel34']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel36']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel37']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel4']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel5']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel6']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel7']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel8']
+11-29 22:04:46 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1071:Replicating drawings on sheet ['pixel9']
+11-29 22:04:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 223:Replication complete
+11-29 22:04:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 226:Letting the user know there are some issues with replicated design
+11-29 22:04:47 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 230:Looks like the design has an exotic connectivity that is not supported by the plugin
  Make sure that you check the connectivity around:
-Footprint D23, pad 3
-Footprint D37, pad 3
-Footprint D18, pad 3
-Footprint D29, pad 3
-Footprint R23, pad 1
-Footprint D27, pad 3
-Footprint D38, pad 3
-Footprint R9, pad 1
-Footprint R1, pad 1
-Footprint R21, pad 1
-Footprint D9, pad 3
-Footprint R10, pad 1
-Footprint D32, pad 3
-Footprint D12, pad 3
-Footprint D15, pad 3
-Footprint D19, pad 3
-Footprint R20, pad 1
-Footprint D24, pad 3
-Footprint D14, pad 3
-Footprint R37, pad 1
-Footprint R38, pad 1
-Footprint D22, pad 3
-Footprint R17, pad 1
-Footprint R24, pad 1
-Footprint R25, pad 1
-Footprint R30, pad 1
-Footprint R33, pad 1
-Footprint D36, pad 3
-Footprint R15, pad 1
-Footprint D16, pad 3
-Footprint R16, pad 1
-Footprint D8, pad 3
-Footprint R19, pad 1
-Footprint R13, pad 1
-Footprint D20, pad 3
-Footprint R28, pad 1
-Footprint R5, pad 1
+Footprint D1, pad 1
+Footprint D11, pad 1
+Footprint D10, pad 3
 
