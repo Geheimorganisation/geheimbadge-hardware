@@ -30,8 +30,8 @@ module outline() {
   }
 }
 
-square([0.1, 1], center=true);
-square([1, 0.1], center=true);
+square([1, 1]);
+//square([w1, 0.1], center=true);
 
 if (part == "outline") {
   outline();
@@ -45,3 +45,4 @@ else if (part == "diff"){
     mask();
   }
 }
+

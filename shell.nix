@@ -1,11 +1,15 @@
-{ pkgs ? import
-    (builtins.fetchTarball "https://github.com/NixOS/nixpkgs/archive/5cfafa1.tar.gz") # nixos-23.05 on 2023-09-30
-    { }
+let
+  nixpkgs_rev = "d171375d7786e41160a9cb0a226a99ee68738c14"; # "master" on 2024-04-24
+  nixpkgs_src = (builtins.fetchTarball "https://github.com/NixOS/nixpkgs/archive/${nixpkgs_rev}.tar.gz");
+in
+
+{
+  pkgs ? import nixpkgs_src { }
 }:
 
 with pkgs;
 let
-  custom_kicad = { kicadVersion, rev, sha256 }: kicad-unstable.override {
+  custom_kicad = { package ? kicad-unstable-small, kicadVersion, rev, sha256 }: package.override {
     srcs = {
       inherit kicadVersion;
       kicad = fetchFromGitLab {
@@ -16,10 +20,13 @@ let
       };
     };
   };
-  kicad-7_0_8 = custom_kicad {
-    kicadVersion = "7.0.8";
-    rev = "063d9c830514d46de163bd0ae2bb1df66309f11e";
-    sha256 = "sha256-xOueBxJwS+0LwcYTBJCsbDKWpiTUSv/O8luNCsdAUr0=";
+
+  kicad-master = custom_kicad {
+    package = kicad-unstable;
+    # package = kicad-unstable-small;
+    kicadVersion = "2024-04-02";
+    rev = "77eaa75db1f310ba31913102655ff3169b687c6e";
+    sha256 = "sha256-6o85J9IkIslUXm8/fROl399BqXqTyZdvKgUNQzZIxUI=";
   };
 
   duplicateproject = writeScriptBin "duplicateproject" ''
@@ -35,16 +42,16 @@ let
 
     cp --recursive "$OLD_NAME" "$NEW_NAME"
     rename "$OLD_NAME" "$NEW_NAME" "$NEW_NAME"/*
-    sed -i -e "s/$OLD_NAME/$NEW_NAME/g" "$NEW_NAME"/"$NEW_NAME".*
+    sed -i -e "s/$OLD_NAME/$NEW_NAME/g" "$NEW_NAME"/"$NEW_NAME".* Makefile
   '';
 in
 mkShell {
   buildInputs = [
-    kicad # 7.0.7
-    # kicad-7_0_8
+    # kicad-unstable-small # 8.0.1
+    kicad-master
     zip
     poppler_utils
-    (python3.withPackages(ps: with ps; [
+    (python3.withPackages (ps: with ps; [
       sexpdata
     ]))
     duplicateproject
