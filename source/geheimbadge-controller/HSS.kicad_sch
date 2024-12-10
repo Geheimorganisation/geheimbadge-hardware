@@ -1748,10 +1748,6 @@
 					(reference "Q1")
 					(unit 1)
 				)
-				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4"
-					(reference "Q1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1830,10 +1826,6 @@
 			(project "geheimbadge-controller"
 				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4/3b6c4b5b-cb65-4de9-a343-7537d4c191c3/4b010337-d78a-4423-8689-fce68ff47e05"
 					(reference "R11")
-					(unit 1)
-				)
-				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -1931,10 +1923,6 @@
 					(reference "D3")
 					(unit 1)
 				)
-				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4"
-					(reference "D2")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2018,10 +2006,6 @@
 					(reference "Q4")
 					(unit 1)
 				)
-				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4"
-					(reference "Q2")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2030,7 +2014,7 @@
 		(at 78.74 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -2090,10 +2074,6 @@
 			(project "geheimbadge-controller"
 				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4/3b6c4b5b-cb65-4de9-a343-7537d4c191c3/4b010337-d78a-4423-8689-fce68ff47e05"
 					(reference "R6")
-					(unit 1)
-				)
-				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4"
-					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -2258,10 +2238,6 @@
 					(reference "D2")
 					(unit 1)
 				)
-				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4"
-					(reference "D3")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2270,7 +2246,7 @@
 		(at 78.74 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -2332,10 +2308,6 @@
 					(reference "R8")
 					(unit 1)
 				)
-				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4"
-					(reference "R17")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2344,7 +2316,7 @@
 		(at 80.01 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2401,10 +2373,6 @@
 			(project "geheimbadge-controller"
 				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4/3b6c4b5b-cb65-4de9-a343-7537d4c191c3/4b010337-d78a-4423-8689-fce68ff47e05"
 					(reference "TP7")
-					(unit 1)
-				)
-				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4"
-					(reference "TP8")
 					(unit 1)
 				)
 			)

@@ -1336,7 +1336,7 @@
 		)
 		(uuid "fec507e0-e855-4e90-8721-eeca0c1a718d")
 	)
-	(text "I_{BAT} = V_{PROG}/R_{PROG} * 1000\nV_{PROG} = 1V\nI_{BAT} = 1A"
+	(text "I_{BAT} = V_{PROG}/R_{PROG} * 88\nV_{PROG} = 1V\nI_{BAT} = 0.187A"
 		(exclude_from_sim no)
 		(at 37.846 76.454 0)
 		(effects
@@ -1525,10 +1525,6 @@
 					(reference "TP8")
 					(unit 1)
 				)
-				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4"
-					(reference "TP5")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1615,10 +1611,6 @@
 			(project "geheimbadge-controller"
 				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4/3b6c4b5b-cb65-4de9-a343-7537d4c191c3/d6562b77-a863-48d7-8398-6af7a6dd4dde"
 					(reference "U1")
-					(unit 1)
-				)
-				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -1833,10 +1825,6 @@
 					(reference "R1")
 					(unit 1)
 				)
-				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4"
-					(reference "R12")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1902,10 +1890,6 @@
 			(project "geheimbadge-controller"
 				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4/3b6c4b5b-cb65-4de9-a343-7537d4c191c3/d6562b77-a863-48d7-8398-6af7a6dd4dde"
 					(reference "TP5")
-					(unit 1)
-				)
-				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -2067,10 +2051,6 @@
 					(reference "C1")
 					(unit 1)
 				)
-				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4"
-					(reference "C2")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2093,7 +2073,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "470"
 			(at 43.18 57.15 0)
 			(effects
 				(font
@@ -2129,7 +2109,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C21190"
+		(property "LCSC Part" "C23179"
 			(at 45.72 55.88 0)
 			(effects
 				(font
@@ -2148,10 +2128,6 @@
 			(project "geheimbadge-controller"
 				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4/3b6c4b5b-cb65-4de9-a343-7537d4c191c3/d6562b77-a863-48d7-8398-6af7a6dd4dde"
 					(reference "R2")
-					(unit 1)
-				)
-				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4"
-					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2231,10 +2207,6 @@
 			(project "geheimbadge-controller"
 				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4/3b6c4b5b-cb65-4de9-a343-7537d4c191c3/d6562b77-a863-48d7-8398-6af7a6dd4dde"
 					(reference "C4")
-					(unit 1)
-				)
-				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4"
-					(reference "C3")
 					(unit 1)
 				)
 			)

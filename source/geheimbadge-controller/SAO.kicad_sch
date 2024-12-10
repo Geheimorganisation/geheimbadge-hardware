@@ -793,7 +793,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -874,10 +874,6 @@
 			(project "geheimbadge-controller"
 				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4/4bd8d557-9256-41cc-b795-84f8ec2f11ea"
 					(reference "J3")
-					(unit 1)
-				)
-				(path "/5477044b-5ae5-4ed6-bb7d-f5f3cc95a2d4"
-					(reference "J1")
 					(unit 1)
 				)
 			)
