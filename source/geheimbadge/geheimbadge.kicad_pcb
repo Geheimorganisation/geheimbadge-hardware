@@ -24732,7 +24732,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "25"
+	(gr_text "25, 36"
 		(at 88 100.5 0)
 		(layer "Cmts.User")
 		(uuid "00110c7f-4644-4812-b11e-36d4bc619e17")
@@ -24972,7 +24972,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "23"
+	(gr_text "23, 37"
 		(at 88 120.5 0)
 		(layer "Cmts.User")
 		(uuid "e3a00e81-b049-4a0e-8b6b-4e159fbf27b8")
