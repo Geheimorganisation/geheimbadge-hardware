@@ -9,7 +9,7 @@ w_wall = 1.2;
 w_ledge = 0.8;
 h_bottom = 1.6;
 h_top = 0.8;
-d_pcbs = 12;
+d_pcbs = 11;
 
 module herz() {
   for(col =["red"
