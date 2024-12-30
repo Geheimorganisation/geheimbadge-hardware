@@ -30,3 +30,4 @@ fp-info-cache
 
 # Project Local Settings
 *.kicad_prl
+*.lck
